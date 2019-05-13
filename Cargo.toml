@@ -1,0 +1,13 @@
+[package]
+name = "rblog_os"
+version = "0.1.0"
+authors = ["readlnh <readlnh@163.com>"]
+edition = "2018"
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
